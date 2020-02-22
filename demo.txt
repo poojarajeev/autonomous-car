@@ -1,0 +1,6 @@
+python car.py -p KeyboardAgent -g DirectionalGhost -x 0 -n 60 -l demoGrid1 -k 0
+python car.py -p KeyboardAgent -g DirectionalGhost -x 0 -n 60 -l demoGrid1 -k 1
+python car.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 0 -n 60 -l demoGrid1
+python car.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 0 -n 60 -l demoGrid2
+python car.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l demoGrid2
+python car.py -p ApproximateQAgent -g DirectionalGhost -a extractor=SimpleExtractor -x 0 -n 60 -l demoGrid3
